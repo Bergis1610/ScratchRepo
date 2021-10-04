@@ -174,30 +174,7 @@ public class TextProcessor {
             command = args[1];
         }
         tp.hovedmk2(filename,command);
-
-
-
-/*
-        switch(command){
-            case "a": command = "\\b[aA]\\b|\\b[Aa]n\\b|\\b[Tt]he\\b"; break;
-            case "b": command = "(Mina Harker|Mrs. Harker)";break;
-            case "c": command = "[^.]*(Transylvania)[^.]*";break;
-            case "d": command = "\\b[Tt]o\\s+\\w+";break;
-            case "e": command = "\\w*(?<![Gg]odalm|[Hh]els)ing\\b";break;
-            default: break;
-        }
-
- */
-        /*
-        print("You chose this file: ");
-        println(filename);
-        println("The pattern to be searched is: " + command);
-
-
-        //tp.printEveryLine(filename);
-        tp.instanceFinder(filename, command);
-        println("\n\nDone!");
-        */
+      
 
     }
 

@@ -153,7 +153,7 @@ public class TextProcessor {
             println("Full Dracula text file name: DraculaFullText");
             print("Please type the file name: ");
             filename = "C:\\Users\\Bruker\\IdeaProjects\\ByteCodeTester\\src\\" + scan.nextLine() + ".txt";
-            print("You chose this file: ");
+            print("You chose this file path: ");
             println(filename);
             println();
 
@@ -170,7 +170,7 @@ public class TextProcessor {
             command = scan.nextLine();
             println();
         } else {
-            filename = "C:\\Users\\Bruker\\IdeaProjects\\ByteCodeTester\\src\\" + args[0] + ".txt";
+            filename = args[0];
             command = args[1];
         }
         tp.hovedmk2(filename,command);

@@ -9,6 +9,12 @@ import java.sql.ResultSet;
 import java.sql.Statement;
  */
 
+/** 
+ * Database management final project
+ * @author Emil Bjørlykke Berglund
+ *
+ */
+
 //import java.util.*;
 
 public class DMP1A{
